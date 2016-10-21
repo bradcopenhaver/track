@@ -22,6 +22,20 @@ h6 {
 #header {
   text-align: center;
 }
+#header img {
+  height: 101px;
+}
+#intro {
+  padding: 10px 0px 0px 0px;
+  background: linear-gradient(to right, #d0e8f6, white);
+}
+#intro p {
+  font-size: 14pt;
+}
+.well {
+  background-color: white;
+  margin-top: 10px;
+}
 .output {
   margin-top: 20px;
 }
