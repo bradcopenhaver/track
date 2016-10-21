@@ -41,8 +41,13 @@ var determineTrack = function() {
 }
 
 var coloring = function() {
+  $("#intro").removeClass("colorblue");
+  $("#intro").removeClass("colorred");
+  $("#intro").removeClass("colororange");
+  $("#intro").removeClass("colorgreen");
   $("#intro").addClass("color"+ favColor);
 }
+
 $(document).ready(function() {
   $(".disable :input").attr("disabled", true);
   $("#color").change(function(){
