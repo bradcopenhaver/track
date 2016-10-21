@@ -40,6 +40,14 @@ $(document).ready(function() {
 
     determineTrack();
 
+    $(".track1").hide();
+    $(".track2").hide();
+    $(".track3").hide();
+    $(".track4").hide();
+    $(".track5").hide();
+    $(".track6").hide();
+    $(".output").hide();
     $(".track"+ result).show();
+    $(".output").slideDown();
   });
 });
