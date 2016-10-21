@@ -7,20 +7,31 @@ var result;
 
 var determineTrack = function() {
   if (q1Answer && q2Answer && q3Answer){
-    if (q3Answer === "mobile") {
+    if (q1Answer === "front-end") {
+      if (q3Answer === "mobile") {
+        result = 3;
+      }
+      else if (q3Answer === "desktop") {
+        result = 4;
+      }
+      else if (q2Answer === "small") {
+        result = 1;
+      }
+      else {
+        result = 4;
+      }
+    }
+    else if (q3Answer === "mobile") {
       result = "3";
     }
     else if (q3Answer === "desktop") {
       result = "5";
     }
-    else if (q2Answer === "small") {
-      result = "1";
-    }
-    else if (q1Answer === "front-end") {
-      result = "4";
+    else if (q2Answer === "big") {
+      result = "2";
     }
     else {
-      result = "2";
+      result = "1";
     }
   }
   else {
