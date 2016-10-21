@@ -11,23 +11,24 @@
   <body>
     <div class="container-fluid">
       <div class="row intro">
-          <h1>Epicodus Course Track Advisor</h1>
-          <h3>Tell us about yourself in the questions below to get a suggestion for which course track at Epicodus is right for you.</h3>
-          <div class="col-md-4">
-            <p>Epicodus offers five different tracks of study for students to choose from. Each track focuses on different languages, and each language occupies a particular place in the tech development world. The language each student should pursue depends on that student's goals for their future employment.</p>
-          </div>
-          <div class="col-md-4">
-            <ul><h4>Offered tracks</h4>
-              <li>Ruby/Rails</li>
-              <li>PHP/Drupal</li>
-              <li>Java/Android</li>
-              <li>CSS/Design</li>
-              <li> C#/.NET</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <img src="img/epicodus.png" alt="Epicodus logo" class="pull-right" />
-          </div>
+        <h1>Epicodus Course Track Advisor</h1>
+        <h3>Tell us about yourself in the questions below to get a suggestion for which course track at Epicodus is right for you.</h3>
+        <div class="col-md-4">
+          <p>Epicodus offers five different tracks of study for students to choose from. Each track focuses on different languages, and each language occupies a particular place in the tech development world. The language each student should pursue depends on that student's goals for their future employment.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Offered tracks</h4>
+          <ul>
+            <li>Ruby/Rails</li>
+            <li>PHP/Drupal</li>
+            <li>Java/Android</li>
+            <li>CSS/Design</li>
+            <li>C#/.NET</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="img/epicodus.png" alt="Epicodus logo" class="pull-right" />
+        </div>
       </div><!--row intro-->
 
       <div class="row info">
@@ -35,20 +36,78 @@
 
         </div><!--col-->
       </div><!--row info-->
-      <div class="row questions">
-        <div class="col-md-3">
 
-        </div><!--col-->
-        <div class="col-md-3">
+      <form>
+        <div class="row questions">
+          <div class="col-md-3">
+            <h5>
+              Would you prefer to build the part of a program or webpage that users will see (front-end), or do you want to work on the "machinery" of the program that works behind the scenes (back-end)?
+            </h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="front-end">
+                Front-end: what the user will see.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="back-end">
+                Back-end: what happens behind the scenes.
+              </label>
+            </div>
+          </div><!--col-->
+          <div class="col-md-3">
+            <h5>
+              Do you want to work for a big company, or a small start-up?
+            </h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="big">
+                Big company.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q2" value="small">
+                Small start-up.
+              </label>
+            </div>
+          </div><!--col-->
+          <div class="col-md-3">
+            <h5>What kind of programs are you most excited to create?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="web">
+                Web sites and applications.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="desktop">
+                Desktop and high-performance applications.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q3" value="mobile">
+                Mobile applications.
+              </label>
+            </div>
+          </div><!--col-->
+          <div class="col-md-3">
+            <div class="form-group">
+              <label for="color"><h5>What is your favorite color?</h5></label>
+              <input id="color" class="form-control" type="color">
+            </div>
+          </div><!--col-->
+        </div><!--row questions-->
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </div>
+      </form>
 
-        </div><!--col-->
-        <div class="col-md-3">
-
-        </div><!--col-->
-        <div class="col-md-3">
-
-        </div><!--col-->
-      </div><!--row questions-->
       <div class="row output">
         <div class="col-md-12">
 
