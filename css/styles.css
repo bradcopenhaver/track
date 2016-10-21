@@ -19,6 +19,10 @@ h6 {
 .track6 {
   display: none;
 }
+.disable {
+  color: lightgrey;
+  pointer-events: none;
+}
 #header {
   text-align: center;
 }

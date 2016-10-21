@@ -41,8 +41,10 @@ var determineTrack = function() {
 }
 
 $(document).ready(function() {
+  $(".disable :input").attr("disabled", true);
   $("form").submit(function(event) {
     event.preventDefault();
+
 
     q1Answer = $("input:radio[name=q1]:checked").val();
     q2Answer = $("input:radio[name=q2]:checked").val();
