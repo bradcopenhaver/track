@@ -4,6 +4,7 @@
 #### October 2016
 
 ### by **Brad Copenhaver**
+_some text and images from Michael Kaiser-Nyman and Epicodus._
 
 ## Description
 
