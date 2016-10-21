@@ -40,8 +40,15 @@ var determineTrack = function() {
   return result;
 }
 
+var coloring = function() {
+  $("#intro").addClass("color"+ favColor);
+}
 $(document).ready(function() {
   $(".disable :input").attr("disabled", true);
+  $("#color").change(function(){
+    favColor = $("#color").val();
+    coloring();
+  });
   $("form").submit(function(event) {
     event.preventDefault();
 

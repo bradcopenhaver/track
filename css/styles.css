@@ -37,10 +37,21 @@ form {
 }
 #intro {
   padding: 10px 0px 0px 0px;
-  background: linear-gradient(to right, #d0e8f6, white);
 }
 #intro p {
   font-size: 14pt;
+}
+.colorblue {
+  background: linear-gradient(to right, #d0e8f6, white);
+}
+.colorred {
+  background: linear-gradient(to right, #ff897a, white);
+}
+.colororange {
+  background: linear-gradient(to right, #ffd45e, white);
+}
+.colorgreen {
+  background: linear-gradient(to right, #b3fcb6, white);
 }
 .well {
   background-color: white;
